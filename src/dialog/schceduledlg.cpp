@@ -36,6 +36,7 @@
 #include <QTextBlock>
 #include <QToolButton>
 #include <QVBoxLayout>
+#include <QKeyEvent>
 
 DGUI_USE_NAMESPACE
 CSchceduleDlg::CSchceduleDlg(int type, QWidget *parent, const bool isAllDay)

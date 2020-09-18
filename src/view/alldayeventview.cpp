@@ -42,6 +42,7 @@
 #include <QJsonDocument>
 #include <QJsonObject>
 #include <QGraphicsOpacityEffect>
+#include <QWheelEvent>
 
 DGUI_USE_NAMESPACE
 

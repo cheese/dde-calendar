@@ -36,6 +36,7 @@
 #include <QHBoxLayout>
 #include <QStylePainter>
 #include <QRect>
+#include <QMouseEvent>
 
 DGUI_USE_NAMESPACE
 

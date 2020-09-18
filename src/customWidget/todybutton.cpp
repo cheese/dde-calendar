@@ -24,6 +24,7 @@
 #include <DPalette>
 
 #include <QPainter>
+#include <QMouseEvent>
 
 DGUI_USE_NAMESPACE
 CTodyButton::CTodyButton(QWidget *parent)

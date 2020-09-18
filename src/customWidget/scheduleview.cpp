@@ -31,6 +31,7 @@
 #include <QShortcut>
 #include <QVBoxLayout>
 #include <QApplication>
+#include <QPainterPath>
 
 DGUI_USE_NAMESPACE
 

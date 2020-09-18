@@ -30,6 +30,9 @@
 #include <QAction>
 #include <QMimeData>
 #include <QShortcut>
+#include <QMouseEvent>
+#include <QWheelEvent>
+#include <QPainterPath>
 
 bool CDayGraphicsItem::m_LunarVisible = false;
 

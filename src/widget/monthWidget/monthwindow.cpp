@@ -29,6 +29,7 @@
 
 #include <QMessageBox>
 #include <QPainter>
+#include <QWheelEvent>
 
 DGUI_USE_NAMESPACE
 CMonthWindow::CMonthWindow(QWidget *parent)

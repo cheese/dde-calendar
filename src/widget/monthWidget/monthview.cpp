@@ -36,6 +36,7 @@
 #include <QQueue>
 #include <QShortcut>
 #include <QApplication>
+#include <QMouseEvent>
 
 DGUI_USE_NAMESPACE
 void CMonthView::setTheMe(int type)

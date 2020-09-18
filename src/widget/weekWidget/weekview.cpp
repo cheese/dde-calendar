@@ -31,6 +31,7 @@
 #include <QMessageBox>
 #include <QWheelEvent>
 #include <QtGlobal>
+#include <QMouseEvent>
 
 DWIDGET_USE_NAMESPACE
 

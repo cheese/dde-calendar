@@ -39,6 +39,7 @@
 #include <QEvent>
 #include <QMouseEvent>
 #include <QScrollBar>
+#include <QWheelEvent>
 
 DGUI_USE_NAMESPACE
 CGraphicsView::CGraphicsView(QWidget *parent, int viewType)

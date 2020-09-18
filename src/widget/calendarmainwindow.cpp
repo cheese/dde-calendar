@@ -50,6 +50,7 @@
 #include <QSpacerItem>
 #include <QWidget>
 #include <QMenuBar>
+#include <QMouseEvent>
 
 #include <com_deepin_daemon_calendar_scheduler.h>
 

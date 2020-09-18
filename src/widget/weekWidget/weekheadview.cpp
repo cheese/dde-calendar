@@ -33,6 +33,8 @@
 #include <QTime>
 #include <QQueue>
 #include <QMenu>
+#include <QMouseEvent>
+#include <QPainterPath>
 
 DGUI_USE_NAMESPACE
 CWeekHeadView::CWeekHeadView(QWidget *parent)
