@@ -5,6 +5,7 @@
 #include "../data/schedulestructs.h"
 #include "../data/schedulecolourmanage.h"
 #include <QVBoxLayout>
+#include <QMouseEvent>
 
 class scheduleitemdate;
 class scheduleitem;

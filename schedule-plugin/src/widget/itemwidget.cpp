@@ -21,6 +21,7 @@
 #include "itemwidget.h"
 
 #include <DApplicationHelper>
+#include <QPainterPath>
 
 ItemWidget::ItemWidget(QWidget *parent)
     : DWidget(parent)

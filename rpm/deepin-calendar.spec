@@ -1,7 +1,7 @@
 %global repo dde-calendar
 
 Name:           deepin-calendar
-Version:        5.7.0.19
+Version:        5.7.0.26
 Release:        1%{?dist}
 Summary:        Calendar for Deepin Desktop Environment
 License:        GPLv3+
@@ -28,6 +28,7 @@ Calendar for Deepin Desktop Environment.
 
 %prep
 %autosetup -p1 -n %{repo}-%{version}
+sed -i "s:/usr/lib:%{_libdir}:" schedule-plugin/CMakeLists.txt
 
 %build
 # help find (and prefer) qt5 utilities, e.g. qmake, lrelease
@@ -50,5 +51,6 @@ desktop-file-validate %{buildroot}%{_datadir}/applications/%{repo}.desktop
 %{_datadir}/dbus-1/services/com.deepin.Calendar.service
 %{_datadir}/applications/%{repo}.desktop
 %{_datadir}/icons/hicolor/scalable/apps/%{repo}.svg
+%{_libdir}/deepin-aiassistant
 
 %changelog

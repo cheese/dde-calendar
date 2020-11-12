@@ -22,6 +22,7 @@
 #define MODIFYSCHEDULEITEM_H
 
 #include "itemwidget.h"
+#include <QMouseEvent>
 
 class modifyScheduleItem : public ItemWidget
 {
